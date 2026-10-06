@@ -66,12 +66,3 @@ python run.py
    - Botao para download instantaneo do **Relatorio Tecnico em PDF** com parecer agronomico.
    - Botao para exportacao da base bruta em **CSV**.
 
----
-
-## Alternativa em Nuvem (Google Sheets + Looker Studio)
-
-Se preferir manter os dados 100% na nuvem do Google:
-1. Crie uma planilha no Google Sheets chamada `Horta_IoT_Database` com a aba `Leituras`.
-2. Va em **Extensoes** -> **Apps Script**, cole o codigo de [`google_apps_script.js`](google_apps_script.js) e publique como **App da Web** (Acesso: "Qualquer pessoa").
-3. Altere a `API_URL` no codigo do ESP32 para a URL gerada pelo Google Script.
-4. Conecte o **Google Looker Studio** a planilha para gerar o painel em nuvem publica.
