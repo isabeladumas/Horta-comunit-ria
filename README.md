@@ -36,7 +36,7 @@ Ele inicia a API FastAPI, conecta automaticamente ao ESP32 via USB Serial na por
 python run.py
 ```
 
-- **Dashboard Visual**: `http://localhost:8501`
+- **Dashboard Visual**: `(https://hortacomunitaria.streamlit.app/)`
 - **Documentacao da API**: `http://localhost:8000/docs`
 
 ---
